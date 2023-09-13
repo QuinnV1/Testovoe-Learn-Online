@@ -1,0 +1,108 @@
+@media(max-width: 375px){
+    .swiper .swiper-pagination{
+        top: 94%;
+        left: 2.6%;
+    }
+    .swiper .swiper-pagination .swiper-pagination-bullet{
+        width:15px;
+        height: 15px;
+    }
+    header{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .swiper .swiper-wrapper .swiper-slide img:nth-child(2){
+        display: none;
+    }
+    .swiper .swiper-wrapper .swiper-slide img:nth-child(3){
+        display: flex;
+    }
+    .swiper .swiper-wrapper .swiper-slide .banner .left {
+        padding: 225px 274px 0 16px;
+    }
+    .jun_info h1, .cur_info h1, .spec_info h1{
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+    .jun_info_list ,.spec_info_list ,.cur_info_list {
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .jun_btn ,.spec_btn, .cur_btn{
+        margin: 0;
+    }
+    .jun_info_list p,.spec_info_list p,.cur_info_list p{
+        width: 344px;
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        padding: 75px 17px;
+    }
+    .info_text{
+        width: 290px;
+        font-size: 16px;
+    }
+    .info_content{
+        margin-right: 0;
+        margin-bottom: 90px;
+    }
+    .info_content img{
+        margin-bottom: 20px;
+    }
+    .info_title{
+        font-size: 26px;
+    }
+    .info_title span{
+        font-size: 26px;
+    }
+    .feedback{
+        padding: 0;
+    }
+    .feedback_content{
+        flex-direction: column;
+    }
+    .feedback_left{
+        margin: 0;
+    }
+    .feedback_left h1{
+        font-size: 36px;
+        padding: 75px 25px 15px 15px;
+    }
+    .feedback_left p{
+        padding: 0 16px 0 15px;
+    }
+    .feedback_right{
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        flex-direction: column;
+        align-items: start;
+    }
+    .form__input{
+        margin-bottom: 10px;
+        width: 344px;
+    }
+    .feedback_btn{
+        width: 344px;
+    }
+    .feedback_right_footer p{
+        text-align: center;
+        width: 344px;
+        margin-bottom: 40px;
+    }
+    .logo_footer{
+        padding: 10px 0;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .swiper-button-prev, .swiper-button-next{
+        display: none;
+    }
+}
